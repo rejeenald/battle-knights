@@ -1,5 +1,6 @@
 from arena import Arena
 from knights.knight import Knight
+import sys
 
 class Main:
     def __init__(self, instruction_file) -> None:
@@ -102,6 +103,7 @@ class Main:
         return self.item_monitor
 
 if __name__ == '__main__':
-    battle_knights = Main(instruction_file='moves.txt')
+    instruction_file = sys.argv[1]
+    battle_knights = Main(instruction_file=instruction_file)
     for element, element_details in battle_knights.leaderboard.items():
         print(f'{element}: {element_details}')
