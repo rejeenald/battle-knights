@@ -1,0 +1,13 @@
+G:N
+G:W
+G:W
+G:N
+B:E
+B:N
+B:E
+B:N
+B:E
+B:E
+G:E
+G:E
+G:E
