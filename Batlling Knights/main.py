@@ -103,4 +103,5 @@ class Main:
 
 if __name__ == '__main__':
     battle_knights = Main(instruction_file='moves.txt')
-    print(battle_knights.leaderboard)
+    for element, element_details in battle_knights.leaderboard.items():
+        print(f'{element}: {element_details}')
