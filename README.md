@@ -1,7 +1,7 @@
 # battle-knights
 
 # Goal of the script
-Please read challenge.pdf.
+Please read `challenge.pdf` file.
 # How to use code
 **Shortcuts commands**
 * Knights
